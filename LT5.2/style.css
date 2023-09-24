@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#body{
+    width: 1000px;
+    background-color: #333;
+    color: #FFFF;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content:hover{
+    margin: 20px;
+    background-color:#EE0000 ;
+
+}
+
+.drop_list{
+    display: none;
+    list-style-type: none;
+}
+
+.content_drop:hover + .drop_list{
+    display: block;
+}
+

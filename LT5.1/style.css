@@ -1,0 +1,98 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+#body{
+    width: 500px;
+    border: 5px ridge #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button, input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* top */
+.body_top{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h2{
+    margin: 0px;
+    font-size: 25px;
+}
+
+.fas{
+    color: #DDDDDD;
+    font-weight: 100px;
+}
+
+.text_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button_Face{
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #1C86EE;
+    
+}
+
+.button_Twi{
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #00B2EE;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+/* center */
+.body_center{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.center_input:hover{
+    color: #3300CC;
+}
+
+span{
+    color: #3300CC;
+}
+/* bottom */
+.body_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom_text{
+    color: #8B8989;
+    font-weight: 900;
+}
+
+.bottom_button{
+    width: 100px;
+    background-color: #CC3300;
+    color: #FFFFFF;
+}
